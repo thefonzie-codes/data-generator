@@ -78,7 +78,7 @@ func main() {
 	person := generatePerson()
 	product := generateProduct()
 	order := generateOrder()
-	fmt.Printf("New Person generated: %v \n", person)
-	fmt.Printf("New Product generated: %v \n", product)
-	fmt.Printf("New Order generated: %v \n", order)
+	fmt.Printf("New Person generated: \n %v \n\n", person)
+	fmt.Printf("New Product generated: \n %v \n\n", product)
+	fmt.Printf("New Order generated: \n %v \n\n", order)
 }
